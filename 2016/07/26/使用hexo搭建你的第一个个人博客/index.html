@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>使用hexo搭建你的第一个个人博客 | 海纳百川</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Hello，今天来教大家怎么用hexo搭建你的个人博客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用hexo搭建你的第一个个人博客">
+<meta property="og:url" content="http://yoursite.com/2016/07/26/使用hexo搭建你的第一个个人博客/index.html">
+<meta property="og:site_name" content="海纳百川">
+<meta property="og:description" content="Hello，今天来教大家怎么用hexo搭建你的个人博客">
+<meta property="og:updated_time" content="2016-09-08T09:17:16.622Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="使用hexo搭建你的第一个个人博客">
+<meta name="twitter:description" content="Hello，今天来教大家怎么用hexo搭建你的个人博客">
+  
+  
+    <link rel="icon" href="/favicon.jpg">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="/me.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">萌哪里傻</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						<li>友情链接</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/zywthj" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/3296257497/profile?topnav=1&wvr=6&is_all=1" title="weibo">weibo</a>
+					        
+								<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/xiao-wei-zi-32-88" title="zhihu">zhihu</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/javascript/" style="font-size: 20px;">javascript</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/博客/" style="font-size: 10px;">博客</a> <a href="/tags/封装函数/" style="font-size: 10px;">封装函数</a> <a href="/tags/运算符/" style="font-size: 10px;">运算符</a> <a href="/tags/面试题/" style="font-size: 10px;">面试题</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.ruanyifeng.com/blog/">阮一峰博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.imooc.com/">慕课</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="https://www.qianduan.net/">前端观察</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://gold.xitu.io/welcome/">掘金技术社区</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">每个前端攻城狮上辈子都是折翼的天使，而我却想成为魔鬼！</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">萌哪里傻</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="/me.jpg" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">萌哪里傻</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/zywthj" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/3296257497/profile?topnav=1&wvr=6&is_all=1" title="weibo">weibo</a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/xiao-wei-zi-32-88" title="zhihu">zhihu</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-使用hexo搭建你的第一个个人博客" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/26/使用hexo搭建你的第一个个人博客/" class="article-date">
+  	<time datetime="2016-07-26T12:01:07.000Z" itemprop="datePublished">2016-07-26</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      使用hexo搭建你的第一个个人博客
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node-js/">node.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客/">博客</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Hello，今天来教大家怎么用hexo搭建你的个人博客"><a href="#Hello，今天来教大家怎么用hexo搭建你的个人博客" class="headerlink" title="Hello，今天来教大家怎么用hexo搭建你的个人博客"></a>Hello，今天来教大家怎么用hexo搭建你的个人博客<a id="more"></a></h3><p>首先介绍下Hexo，Hexo基于Node.js，出自台湾大学生tommy351(大学就这么强，好厉害-.-！)，Hexo生成的静态网站可以放在任意空间上，例如常见的PHP、ASP空间、FTP服务器、百度BAE、新浪SAE等空间，可以说只要能用Web访问的就可以搭建起Hexo博客。然而我们今天要讲的是如何部署到github。(免费的谁不喜欢，逃)</p>
+<h2 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a><strong>一、准备工作</strong></h2><h3 id="1、git-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-git官网，打开比较慢，你懂的。"><a href="#1、git-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-git官网，打开比较慢，你懂的。" class="headerlink" title="1、git &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git官网，打开比较慢，你懂的。"></a>1、<strong>git</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://git-scm.com/" target="_blank" rel="external">git官网</a>，打开比较慢，你懂的。</h3><h3 id="2、node-js-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nodejs官网，-自行下载"><a href="#2、node-js-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nodejs官网，-自行下载" class="headerlink" title="2、node.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nodejs官网， 自行下载"></a>2、<strong>node.js</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://nodejs.org/en/" target="_blank" rel="external">nodejs官网</a>， 自行下载</h3><h3 id="3、github账号-nbsp-nbsp-nbsp-github官网-，自行注册"><a href="#3、github账号-nbsp-nbsp-nbsp-github官网-，自行注册" class="headerlink" title="3、github账号 &nbsp;&nbsp;&nbsp;github官网 ，自行注册"></a>3、<strong>github账号</strong> &nbsp;&nbsp;&nbsp;<a href="https://github.com/" target="_blank" rel="external">github官网</a> ，自行注册</h3><h2 id="二、开始安装"><a href="#二、开始安装" class="headerlink" title="二、开始安装"></a><strong>二、开始安装</strong></h2><h3 id="1-安装依赖包"><a href="#1-安装依赖包" class="headerlink" title="1. 安装依赖包"></a>1. 安装依赖包</h3><pre><code>$ npm install
+</code></pre><h3 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2. 安装hexo"></a>2. 安装hexo</h3><h4 id="创建博客文件夹-如hexo-并右击，选择Git-Hash-Here，输入以下命令："><a href="#创建博客文件夹-如hexo-并右击，选择Git-Hash-Here，输入以下命令：" class="headerlink" title="创建博客文件夹(如hexo)并右击，选择Git Hash Here，输入以下命令："></a>创建博客文件夹(如hexo)并右击，选择Git Hash Here，输入以下命令：</h4><pre><code>$ npm install hexo -g
+</code></pre><h4 id="初始化建立项目："><a href="#初始化建立项目：" class="headerlink" title="初始化建立项目："></a>初始化建立项目：</h4><pre><code>$ hexo init
+</code></pre><h3 id="3-生成博客"><a href="#3-生成博客" class="headerlink" title="3. 生成博客"></a>3. 生成博客</h3><pre><code>$ hexo g
+</code></pre><h3 id="4-打开服务器"><a href="#4-打开服务器" class="headerlink" title="4. 打开服务器"></a>4. 打开服务器</h3><pre><code>$ hexo s
+</code></pre><p>默认localhost:4000，在浏览器下输入此地址，本地博客搭建完成。</p>
+<h2 id="三、将Hexo博客部署到github"><a href="#三、将Hexo博客部署到github" class="headerlink" title="三、将Hexo博客部署到github"></a><strong>三、将Hexo博客部署到github</strong></h2><h3 id="1-前面已经注册了github账号-没注册的童鞋请自行面壁-，创建repository并将其命名为账号名，比如我的Github账号是zywthj，那么我应该创建的Repository的名字是：zywthj-github-io。"><a href="#1-前面已经注册了github账号-没注册的童鞋请自行面壁-，创建repository并将其命名为账号名，比如我的Github账号是zywthj，那么我应该创建的Repository的名字是：zywthj-github-io。" class="headerlink" title="1. 前面已经注册了github账号(没注册的童鞋请自行面壁-.-)，创建repository并将其命名为账号名，比如我的Github账号是zywthj，那么我应该创建的Repository的名字是：zywthj.github.io。"></a>1. 前面已经注册了github账号(没注册的童鞋请自行面壁-.-)，创建repository并将其命名为账号名，比如我的Github账号是zywthj，那么我应该创建的Repository的名字是：zywthj.github.io。</h3><h3 id="2-部署-zywthj替换成自己的用户名"><a href="#2-部署-zywthj替换成自己的用户名" class="headerlink" title="2. 部署 (zywthj替换成自己的用户名)"></a>2. 部署 (<strong>zywthj替换成自己的用户名</strong>)</h3><h3 id="打开hexo文件夹下的-config-yml配置文件，把最下面的一部分改成如下："><a href="#打开hexo文件夹下的-config-yml配置文件，把最下面的一部分改成如下：" class="headerlink" title="打开hexo文件夹下的_config.yml配置文件，把最下面的一部分改成如下："></a>打开hexo文件夹下的_config.yml配置文件，把最下面的一部分改成如下：</h3><pre><code>deploy:
+  type : git
+  repo : https://github.com/zywthj/zywthj.github.com.git
+  branch : master
+</code></pre><h3 id="然后执行命令："><a href="#然后执行命令：" class="headerlink" title="然后执行命令："></a>然后执行命令：</h3><pre><code>npm install hexo-deployer-git --save
+</code></pre><h3 id="最后执行如下命令："><a href="#最后执行如下命令：" class="headerlink" title="最后执行如下命令："></a>最后执行如下命令：</h3><pre><code>$ hexo g
+$ hexo d
+</code></pre><h3 id="或者写成："><a href="#或者写成：" class="headerlink" title="或者写成："></a>或者写成：</h3><pre><code>$hexo d -g
+</code></pre><h3 id="即可成功部署。"><a href="#即可成功部署。" class="headerlink" title="即可成功部署。"></a>即可成功部署。</h3><p><br></p>
+<h3 id="有的童鞋没有配置过ssh，有时候repo设置为https地址不能连接本地，这时候可以使用ssh"><a href="#有的童鞋没有配置过ssh，有时候repo设置为https地址不能连接本地，这时候可以使用ssh" class="headerlink" title="有的童鞋没有配置过ssh，有时候repo设置为https地址不能连接本地，这时候可以使用ssh"></a>有的童鞋没有配置过ssh，有时候repo设置为https地址不能连接本地，这时候可以使用ssh</h3><h3 id="把repo的值改为ssh地址-zywthj替换成自己的用户名-："><a href="#把repo的值改为ssh地址-zywthj替换成自己的用户名-：" class="headerlink" title="把repo的值改为ssh地址(zywthj替换成自己的用户名)："></a>把repo的值改为ssh地址(zywthj替换成自己的用户名)：</h3><h3 id="git-github-com-zywthj-zywthj-github-io-git"><a href="#git-github-com-zywthj-zywthj-github-io-git" class="headerlink" title="git@github.com:zywthj/zywthj.github.io.git"></a><strong>git@github.com:zywthj/zywthj.github.io.git</strong></h3><h3 id="在命令行输入："><a href="#在命令行输入：" class="headerlink" title="在命令行输入："></a>在命令行输入：</h3><pre><code>$ ssh-keygen -t rsa -C &quot;317797468@qq.com&quot; 
+</code></pre><p>（填写自己注册github的邮箱地址）</p>
+<h3 id="然后一路按回车，直到出现："><a href="#然后一路按回车，直到出现：" class="headerlink" title="然后一路按回车，直到出现："></a>然后一路按回车，直到出现：</h3><h3 id="Your-identification-has-been-saved-in-c-Users-xxxx-000-ssh-id-rsa-生成的密钥"><a href="#Your-identification-has-been-saved-in-c-Users-xxxx-000-ssh-id-rsa-生成的密钥" class="headerlink" title="Your identification has been saved in /c/Users/xxxx_000/.ssh/id_rsa.#生成的密钥"></a>Your identification has been saved in /c/Users/xxxx_000/.ssh/id_rsa.#生成的密钥</h3><h3 id="Your-public-key-has-been-saved-in-c-Users-xxxx-000-ssh-id-rsa-pub-生成的公钥"><a href="#Your-public-key-has-been-saved-in-c-Users-xxxx-000-ssh-id-rsa-pub-生成的公钥" class="headerlink" title="Your public key has been saved in /c/Users/xxxx_000/.ssh/id_rsa.pub.#生成的公钥"></a>Your public key has been saved in /c/Users/xxxx_000/.ssh/id_rsa.pub.#生成的公钥</h3><h3 id="然后将id-rsa-pub下的内容全部复制，粘贴到github：登录github系统；点击右上角账号头像的“▼”→Settings→SSH-kyes→Add-SSH-key。"><a href="#然后将id-rsa-pub下的内容全部复制，粘贴到github：登录github系统；点击右上角账号头像的“▼”→Settings→SSH-kyes→Add-SSH-key。" class="headerlink" title="然后将id_rsa.pub下的内容全部复制，粘贴到github：登录github系统；点击右上角账号头像的“▼”→Settings→SSH kyes→Add SSH key。"></a>然后将id_rsa.pub下的内容全部复制，粘贴到github：登录github系统；点击右上角账号头像的“▼”→Settings→SSH kyes→Add SSH key。</h3><h3 id="title：随便填，"><a href="#title：随便填，" class="headerlink" title="title：随便填，"></a>title：随便填，</h3><h3 id="Key：粘贴复制的id-rsa-pub下的内容"><a href="#Key：粘贴复制的id-rsa-pub下的内容" class="headerlink" title="Key：粘贴复制的id_rsa.pub下的内容"></a>Key：粘贴复制的id_rsa.pub下的内容</h3><h3 id="最后“Add-Key”。"><a href="#最后“Add-Key”。" class="headerlink" title="最后“Add Key”。"></a>最后“Add Key”。</h3><h2 id="现在再执行："><a href="#现在再执行：" class="headerlink" title="现在再执行："></a>现在再执行：</h2><pre><code>$ hexo d -g
+</code></pre><h3 id="登陆hcjp6-xyz-nbsp-nbsp-nbsp-nbsp-查看博客，部署成功！"><a href="#登陆hcjp6-xyz-nbsp-nbsp-nbsp-nbsp-查看博客，部署成功！" class="headerlink" title="登陆hcjp6.xyz&nbsp;&nbsp;&nbsp;&nbsp;查看博客，部署成功！"></a>登陆hcjp6.xyz&nbsp;&nbsp;&nbsp;&nbsp;查看博客，部署成功！</h3>
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/07/27/自己总结的15道前端面试题/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          自己总结的15道前端面试题
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="使用hexo搭建你的第一个个人博客" data-title="使用hexo搭建你的第一个个人博客" data-url="http://yoursite.com/2016/07/26/使用hexo搭建你的第一个个人博客/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+        本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        本站访客数<span id="busuanzi_value_site_uv"></span>人次
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次     
+    </div>
+  </div>
+</footer>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+<div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
+
+  </div>
+</body>
+</html>

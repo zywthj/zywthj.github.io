@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>自己总结的15道前端面试题 | 海纳百川</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="注：以下仅为博主自己搜集资料简化整理而来，如有不妥之处请各位大大使劲拍！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自己总结的15道前端面试题">
+<meta property="og:url" content="http://yoursite.com/2016/07/27/自己总结的15道前端面试题/index.html">
+<meta property="og:site_name" content="海纳百川">
+<meta property="og:description" content="注：以下仅为博主自己搜集资料简化整理而来，如有不妥之处请各位大大使劲拍！">
+<meta property="og:updated_time" content="2016-07-27T13:55:23.252Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="自己总结的15道前端面试题">
+<meta name="twitter:description" content="注：以下仅为博主自己搜集资料简化整理而来，如有不妥之处请各位大大使劲拍！">
+  
+  
+    <link rel="icon" href="/favicon.jpg">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="/me.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">萌哪里傻</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						<li>友情链接</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/zywthj" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/3296257497/profile?topnav=1&wvr=6&is_all=1" title="weibo">weibo</a>
+					        
+								<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/xiao-wei-zi-32-88" title="zhihu">zhihu</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/javascript/" style="font-size: 20px;">javascript</a> <a href="/tags/node-js/" style="font-size: 10px;">node.js</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/博客/" style="font-size: 10px;">博客</a> <a href="/tags/封装函数/" style="font-size: 10px;">封装函数</a> <a href="/tags/运算符/" style="font-size: 10px;">运算符</a> <a href="/tags/面试题/" style="font-size: 10px;">面试题</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.ruanyifeng.com/blog/">阮一峰博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.imooc.com/">慕课</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="https://www.qianduan.net/">前端观察</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://gold.xitu.io/welcome/">掘金技术社区</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">每个前端攻城狮上辈子都是折翼的天使，而我却想成为魔鬼！</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">萌哪里傻</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="/me.jpg" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">萌哪里傻</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/zywthj" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/3296257497/profile?topnav=1&wvr=6&is_all=1" title="weibo">weibo</a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/xiao-wei-zi-32-88" title="zhihu">zhihu</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-自己总结的15道前端面试题" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/27/自己总结的15道前端面试题/" class="article-date">
+  	<time datetime="2016-07-27T12:25:02.000Z" itemprop="datePublished">2016-07-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      自己总结的15道前端面试题
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/面试题/">面试题</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="注：以下仅为博主自己搜集资料简化整理而来，如有不妥之处请各位大大使劲拍！"><a href="#注：以下仅为博主自己搜集资料简化整理而来，如有不妥之处请各位大大使劲拍！" class="headerlink" title="注：以下仅为博主自己搜集资料简化整理而来，如有不妥之处请各位大大使劲拍！"></a><strong>注：以下仅为博主自己搜集资料简化整理而来，如有不妥之处请各位大大使劲拍！</strong></h4><a id="more"></a>
+<h1 id="1-AMD与CMD的区别与相同点："><a href="#1-AMD与CMD的区别与相同点：" class="headerlink" title="1. AMD与CMD的区别与相同点："></a><strong>1. AMD与CMD的区别与相同点：</strong></h1><h4 id="相同点：两种规范都是为了模块化JS进行开发。"><a href="#相同点：两种规范都是为了模块化JS进行开发。" class="headerlink" title="相同点：两种规范都是为了模块化JS进行开发。"></a><strong>相同点：</strong>两种规范都是为了模块化JS进行开发。</h4><h4 id="nbsp-nbsp-nbsp-区别：采用AMD规范的是RequrieJs，采用CMD规范的是SeaJs，AMD是提前执行，CMD是延迟执行；AMD是依赖前置，CMD是依赖就近。"><a href="#nbsp-nbsp-nbsp-区别：采用AMD规范的是RequrieJs，采用CMD规范的是SeaJs，AMD是提前执行，CMD是延迟执行；AMD是依赖前置，CMD是依赖就近。" class="headerlink" title="&nbsp;&nbsp;&nbsp;区别：采用AMD规范的是RequrieJs，采用CMD规范的是SeaJs，AMD是提前执行，CMD是延迟执行；AMD是依赖前置，CMD是依赖就近。"></a>&nbsp;&nbsp;&nbsp;<strong>区别：</strong>采用AMD规范的是RequrieJs，采用CMD规范的是SeaJs，AMD是提前执行，CMD是延迟执行；AMD是依赖前置，CMD是依赖就近。</h4><h1 id="2-MVC与MVVM："><a href="#2-MVC与MVVM：" class="headerlink" title="2. MVC与MVVM："></a><strong>2. MVC与MVVM：</strong></h1><ul>
+<li><h3 id="MVC是指数据-视图-控制器，在MVC里，更关注的是Model不变，View里会包含Model，View可以直接访问Model且依赖Model，而Model并不依赖View"><a href="#MVC是指数据-视图-控制器，在MVC里，更关注的是Model不变，View里会包含Model，View可以直接访问Model且依赖Model，而Model并不依赖View" class="headerlink" title="MVC是指数据.视图.控制器，在MVC里，更关注的是Model不变，View里会包含Model，View可以直接访问Model且依赖Model，而Model并不依赖View;"></a>MVC是指数据.视图.控制器，在MVC里，更关注的是Model不变，View里会包含Model，View可以直接访问Model且依赖Model，而Model并不依赖View;</h3></li>
+<li><h3 id="MVVM是指视图完全与数据分离，View不能直接访问Model，Model也不能直接访问View，二者通过ViewModel进行沟通，形成双向数据绑定，真正实现了前端与后台分离。"><a href="#MVVM是指视图完全与数据分离，View不能直接访问Model，Model也不能直接访问View，二者通过ViewModel进行沟通，形成双向数据绑定，真正实现了前端与后台分离。" class="headerlink" title="MVVM是指视图完全与数据分离，View不能直接访问Model，Model也不能直接访问View，二者通过ViewModel进行沟通，形成双向数据绑定，真正实现了前端与后台分离。"></a>MVVM是指视图完全与数据分离，View不能直接访问Model，Model也不能直接访问View，二者通过ViewModel进行沟通，形成双向数据绑定，真正实现了前端与后台分离。</h3></li>
+</ul>
+<h1 id="3-闭包："><a href="#3-闭包：" class="headerlink" title="3.闭包："></a><strong>3.闭包：</strong></h1><h3 id="1-闭包的概念：闭包就是能够读取其他函数内部变量的函数。"><a href="#1-闭包的概念：闭包就是能够读取其他函数内部变量的函数。" class="headerlink" title="1).闭包的概念：闭包就是能够读取其他函数内部变量的函数。"></a>1).闭包的概念：闭包就是能够读取其他函数内部变量的函数。</h3><h3 id="举例："><a href="#举例：" class="headerlink" title="举例："></a>举例：</h3><pre><code>function a(){
+    var i = 0;
+    function b(){
+        alert(++i);
+    }
+    return b;
+}
+    var c = a();
+    c(); //1
+</code></pre><h3 id="闭包产生的变量不能被垃圾收集器回收，会一直存在于内存中，内耗很大，IE还会导致内存泄露，解决方法是：-在退出函数之前，将不使用的局部变量全部删除（b-null）。"><a href="#闭包产生的变量不能被垃圾收集器回收，会一直存在于内存中，内耗很大，IE还会导致内存泄露，解决方法是：-在退出函数之前，将不使用的局部变量全部删除（b-null）。" class="headerlink" title="闭包产生的变量不能被垃圾收集器回收，会一直存在于内存中，内耗很大，IE还会导致内存泄露，解决方法是： 在退出函数之前，将不使用的局部变量全部删除（b=null）。"></a>闭包产生的变量不能被垃圾收集器回收，会一直存在于内存中，内耗很大，IE还会导致内存泄露，解决方法是： 在退出函数之前，将不使用的局部变量全部删除（b=null）。</h3><h3 id="2-js中垃圾回收机制分为两种："><a href="#2-js中垃圾回收机制分为两种：" class="headerlink" title="2).js中垃圾回收机制分为两种："></a>2).js中垃圾回收机制分为两种：</h3><ul>
+<li><h4 id="标记清除：垃圾收集器在运行时会给内存中的所有变量加上标记，它会去掉环境中的变量的标记和被环境中变量引用的变量的标记，此后，如果变量再被标记则表示此变量准备被删除。"><a href="#标记清除：垃圾收集器在运行时会给内存中的所有变量加上标记，它会去掉环境中的变量的标记和被环境中变量引用的变量的标记，此后，如果变量再被标记则表示此变量准备被删除。" class="headerlink" title="标记清除：垃圾收集器在运行时会给内存中的所有变量加上标记，它会去掉环境中的变量的标记和被环境中变量引用的变量的标记，此后，如果变量再被标记则表示此变量准备被删除。"></a>标记清除：垃圾收集器在运行时会给内存中的所有变量加上标记，它会去掉环境中的变量的标记和被环境中变量引用的变量的标记，此后，如果变量再被标记则表示此变量准备被删除。</h4></li>
+<li><h4 id="引用计数：跟踪记录每个值被引用的次数，当声明一个变量并将一个引用值赋给变量时，引用次数-1，相反，当一个变量脱离该值的引用时，引用次数-1，为0时等待垃圾收集器回收。"><a href="#引用计数：跟踪记录每个值被引用的次数，当声明一个变量并将一个引用值赋给变量时，引用次数-1，相反，当一个变量脱离该值的引用时，引用次数-1，为0时等待垃圾收集器回收。" class="headerlink" title="引用计数：跟踪记录每个值被引用的次数，当声明一个变量并将一个引用值赋给变量时，引用次数+1，相反，当一个变量脱离该值的引用时，引用次数-1，为0时等待垃圾收集器回收。"></a>引用计数：跟踪记录每个值被引用的次数，当声明一个变量并将一个引用值赋给变量时，引用次数+1，相反，当一个变量脱离该值的引用时，引用次数-1，为0时等待垃圾收集器回收。</h4></li>
+</ul>
+<h1 id="4-面向对象如何实现继承："><a href="#4-面向对象如何实现继承：" class="headerlink" title="4.面向对象如何实现继承："></a><strong>4.面向对象如何实现继承：</strong></h1><h3 id="1）构造继承"><a href="#1）构造继承" class="headerlink" title="1）构造继承"></a>1）构造继承</h3><h3 id="2）原型继承"><a href="#2）原型继承" class="headerlink" title="2）原型继承"></a>2）原型继承</h3><h3 id="3）call-apply继承"><a href="#3）call-apply继承" class="headerlink" title="3）call.apply继承"></a>3）call.apply继承</h3><h3 id="例（构造继承-原型继承）"><a href="#例（构造继承-原型继承）" class="headerlink" title="例（构造继承.原型继承）:"></a>例（构造继承.原型继承）:</h3><pre><code>function personName(){
+     this.name = &quot;zyw&quot;; 
+
+}       
+function personAge(){
+    this.age = 18;
+}
+personAge.prototype = new personName();
+var age = new personAge();
+console.log(age.name); //zyw
+</code></pre><h1 id="6-jsonp的实现，有哪些可以用jsonp的标签？"><a href="#6-jsonp的实现，有哪些可以用jsonp的标签？" class="headerlink" title="6.jsonp的实现，有哪些可以用jsonp的标签？"></a><strong>6.jsonp的实现，有哪些可以用jsonp的标签？</strong></h1><h3 id="在js中，直接用XMLHttpRequest请求不同域的数据是不可以的，但是可以引入不同域的js脚本文件，jsonp就是利用这个原理实现的。"><a href="#在js中，直接用XMLHttpRequest请求不同域的数据是不可以的，但是可以引入不同域的js脚本文件，jsonp就是利用这个原理实现的。" class="headerlink" title="在js中，直接用XMLHttpRequest请求不同域的数据是不可以的，但是可以引入不同域的js脚本文件，jsonp就是利用这个原理实现的。"></a>在js中，直接用XMLHttpRequest请求不同域的数据是不可以的，但是可以引入不同域的js脚本文件，jsonp就是利用这个原理实现的。</h3><h3 id="带有src属性的标签都可以用实现跨域，比如-lt-script-gt-、-lt-img-gt-、-lt-iframe-gt-等。"><a href="#带有src属性的标签都可以用实现跨域，比如-lt-script-gt-、-lt-img-gt-、-lt-iframe-gt-等。" class="headerlink" title="带有src属性的标签都可以用实现跨域，比如&lt;script&gt;、&lt;img&gt;、&lt;iframe&gt;等。"></a>带有src属性的标签都可以用实现跨域，比如<code>&lt;script&gt;、&lt;img&gt;、&lt;iframe&gt;</code>等。</h3><h1 id="7-cookie和localstorage"><a href="#7-cookie和localstorage" class="headerlink" title="7.cookie和localstorage"></a><strong>7.cookie和localstorage</strong></h1><ul>
+<li><h3 id="cookie：cookie默认是临时存储的，当浏览器关闭进程的时候自动销毁"><a href="#cookie：cookie默认是临时存储的，当浏览器关闭进程的时候自动销毁" class="headerlink" title="cookie：cookie默认是临时存储的，当浏览器关闭进程的时候自动销毁"></a>cookie：cookie默认是临时存储的，当浏览器关闭进程的时候自动销毁</h3></li>
+<li><h3 id="localstorage-本地存储-即使关闭浏览器数据也不会消失"><a href="#localstorage-本地存储-即使关闭浏览器数据也不会消失" class="headerlink" title="localstorage: 本地存储, 即使关闭浏览器数据也不会消失."></a>localstorage: 本地存储, 即使关闭浏览器数据也不会消失.</h3></li>
+</ul>
+<h1 id="8-请求头里有哪些东西？post和get的不同？"><a href="#8-请求头里有哪些东西？post和get的不同？" class="headerlink" title="8.请求头里有哪些东西？post和get的不同？"></a><strong>8.请求头里有哪些东西？post和get的不同？</strong></h1><ul>
+<li><h3 id="Accept：浏览器能够处理的内容类型"><a href="#Accept：浏览器能够处理的内容类型" class="headerlink" title="Accept：浏览器能够处理的内容类型"></a>Accept：浏览器能够处理的内容类型</h3></li>
+<li><h3 id="Accept-Charset：字符集"><a href="#Accept-Charset：字符集" class="headerlink" title="Accept-Charset：字符集"></a>Accept-Charset：字符集</h3></li>
+<li><h3 id="Accept-Encoding：压缩编码"><a href="#Accept-Encoding：压缩编码" class="headerlink" title="Accept-Encoding：压缩编码"></a>Accept-Encoding：压缩编码</h3></li>
+<li><h3 id="Accept-Language：语言"><a href="#Accept-Language：语言" class="headerlink" title="Accept-Language：语言"></a>Accept-Language：语言</h3></li>
+<li><h3 id="Connection：浏览器与服务器之间连接的类型"><a href="#Connection：浏览器与服务器之间连接的类型" class="headerlink" title="Connection：浏览器与服务器之间连接的类型"></a>Connection：浏览器与服务器之间连接的类型</h3></li>
+<li><h3 id="Cookie：当前页面设置的任何cookie"><a href="#Cookie：当前页面设置的任何cookie" class="headerlink" title="Cookie：当前页面设置的任何cookie"></a>Cookie：当前页面设置的任何cookie</h3></li>
+<li><h3 id="Host：发出请求的页面所在的域"><a href="#Host：发出请求的页面所在的域" class="headerlink" title="Host：发出请求的页面所在的域"></a>Host：发出请求的页面所在的域</h3></li>
+<li><h3 id="Referer：发出请求的页面的URI"><a href="#Referer：发出请求的页面的URI" class="headerlink" title="Referer：发出请求的页面的URI"></a>Referer：发出请求的页面的URI</h3></li>
+<li><h3 id="User-Agent：浏览器的用户代理字符串"><a href="#User-Agent：浏览器的用户代理字符串" class="headerlink" title="User-Agent：浏览器的用户代理字符串"></a>User-Agent：浏览器的用户代理字符串</h3><h3 id="Get常用于向服务器查询某些信息，Post通常用于向服务器发送应该被保存的数据。"><a href="#Get常用于向服务器查询某些信息，Post通常用于向服务器发送应该被保存的数据。" class="headerlink" title="Get常用于向服务器查询某些信息，Post通常用于向服务器发送应该被保存的数据。"></a><strong>Get常用于向服务器查询某些信息，Post通常用于向服务器发送应该被保存的数据。</strong></h3></li>
+</ul>
+<h1 id="9-事件冒泡与捕获，事件委托，target与currenttarget？"><a href="#9-事件冒泡与捕获，事件委托，target与currenttarget？" class="headerlink" title="9.事件冒泡与捕获，事件委托，target与currenttarget？"></a><strong>9.事件冒泡与捕获，事件委托，target与currenttarget？</strong></h1><h3 id="1）事件冒泡即事件开始时由具体的元素向上传播到不具体的节点，在事件捕获过程中，document对象首先接收到发生的事件，然后事件沿DOM树向下，一直传播到实际目标。"><a href="#1）事件冒泡即事件开始时由具体的元素向上传播到不具体的节点，在事件捕获过程中，document对象首先接收到发生的事件，然后事件沿DOM树向下，一直传播到实际目标。" class="headerlink" title="1）事件冒泡即事件开始时由具体的元素向上传播到不具体的节点，在事件捕获过程中，document对象首先接收到发生的事件，然后事件沿DOM树向下，一直传播到实际目标。"></a>1）事件冒泡即事件开始时由具体的元素向上传播到不具体的节点，在事件捕获过程中，document对象首先接收到发生的事件，然后事件沿DOM树向下，一直传播到实际目标。</h3><h3 id="2）事件委托利用了事件冒泡，只指定一个事件处理程序，就可以管理某一类型的所有事件。"><a href="#2）事件委托利用了事件冒泡，只指定一个事件处理程序，就可以管理某一类型的所有事件。" class="headerlink" title="2）事件委托利用了事件冒泡，只指定一个事件处理程序，就可以管理某一类型的所有事件。"></a>2）事件委托利用了事件冒泡，只指定一个事件处理程序，就可以管理某一类型的所有事件。</h3><h3 id="3）target是事件目标元素，currenttarget是处理事件的那个元素，始终与对象this相等，例："><a href="#3）target是事件目标元素，currenttarget是处理事件的那个元素，始终与对象this相等，例：" class="headerlink" title="3）target是事件目标元素，currenttarget是处理事件的那个元素，始终与对象this相等，例："></a>3）target是事件目标元素，currenttarget是处理事件的那个元素，始终与对象this相等，例：</h3><pre><code>document.body.click = function(event){
+    alert(event.currenttarget === document.body) //true
+    alert(this === document.body) //true
+    alert(event.target === document.getElementById(&quot;btn&quot;)) //true
+}
+</code></pre><h1 id="10-前端工程化理解"><a href="#10-前端工程化理解" class="headerlink" title="10.前端工程化理解"></a><strong>10.前端工程化理解</strong></h1><h3 id="随着项目复杂度的增加，很多大型应用不再适用于使用传统的模式进行开发，前端工程化就是利用一些工具去提高开发效率，更好地构建和管理代码，比如模块化和组件化-代码版本管理SVN-git，还有-grunt-gulp-fis这些前端自动化工具可以对文件进行压缩合并-图片优化-自动格式化等，都极大的提高了开发效率并且使大型应用中的代码更便于维护和管理。"><a href="#随着项目复杂度的增加，很多大型应用不再适用于使用传统的模式进行开发，前端工程化就是利用一些工具去提高开发效率，更好地构建和管理代码，比如模块化和组件化-代码版本管理SVN-git，还有-grunt-gulp-fis这些前端自动化工具可以对文件进行压缩合并-图片优化-自动格式化等，都极大的提高了开发效率并且使大型应用中的代码更便于维护和管理。" class="headerlink" title="随着项目复杂度的增加，很多大型应用不再适用于使用传统的模式进行开发，前端工程化就是利用一些工具去提高开发效率，更好地构建和管理代码，比如模块化和组件化.代码版本管理SVN.git，还有 grunt.gulp.fis这些前端自动化工具可以对文件进行压缩合并.图片优化.自动格式化等，都极大的提高了开发效率并且使大型应用中的代码更便于维护和管理。"></a>随着项目复杂度的增加，很多大型应用不再适用于使用传统的模式进行开发，前端工程化就是利用一些工具去提高开发效率，更好地构建和管理代码，比如模块化和组件化.代码版本管理SVN.git，还有 grunt.gulp.fis这些前端自动化工具可以对文件进行压缩合并.图片优化.自动格式化等，都极大的提高了开发效率并且使大型应用中的代码更便于维护和管理。</h3><h1 id="11-MongoDB与Mysql的区别"><a href="#11-MongoDB与Mysql的区别" class="headerlink" title="11.MongoDB与Mysql的区别"></a><strong>11.MongoDB与Mysql的区别</strong></h1><h3 id="存储多种数据类型，有大量的键值对数据需要存储就用mongodb；"><a href="#存储多种数据类型，有大量的键值对数据需要存储就用mongodb；" class="headerlink" title="存储多种数据类型，有大量的键值对数据需要存储就用mongodb；"></a>存储多种数据类型，有大量的键值对数据需要存储就用mongodb；</h3><h3 id="事务处理一般用mysql，但是性能比mongodb差点。"><a href="#事务处理一般用mysql，但是性能比mongodb差点。" class="headerlink" title="事务处理一般用mysql，但是性能比mongodb差点。"></a>事务处理一般用mysql，但是性能比mongodb差点。</h3><h1 id="12-ES2015的相关特性："><a href="#12-ES2015的相关特性：" class="headerlink" title="12.ES2015的相关特性："></a><strong>12.ES2015的相关特性：</strong></h1><h3 id="用let来声明变量，用const来声明常量，增加了块级作用域"><a href="#用let来声明变量，用const来声明常量，增加了块级作用域" class="headerlink" title="用let来声明变量，用const来声明常量，增加了块级作用域;"></a>用let来声明变量，用const来声明常量，增加了块级作用域;</h3><h3 id="支持js模块化，可以用import引入，export导出js文件"><a href="#支持js模块化，可以用import引入，export导出js文件" class="headerlink" title="支持js模块化，可以用import引入，export导出js文件;"></a>支持js模块化，可以用import引入，export导出js文件;</h3><h3 id="新增了许多语法糖，比如箭头函数，类，解构赋值等。"><a href="#新增了许多语法糖，比如箭头函数，类，解构赋值等。" class="headerlink" title="新增了许多语法糖，比如箭头函数，类，解构赋值等。"></a>新增了许多语法糖，比如箭头函数，类，解构赋值等。</h3><h2 id="nbsp-nbsp-nbsp-14-1-es6-的-import-和-CMD-风格的-require-有什么区别？"><a href="#nbsp-nbsp-nbsp-14-1-es6-的-import-和-CMD-风格的-require-有什么区别？" class="headerlink" title="&nbsp;&nbsp;&nbsp;14_1.es6 的 import 和 CMD 风格的 require 有什么区别？"></a>&nbsp;&nbsp;&nbsp;14_1.es6 的 import 和 CMD 风格的 require 有什么区别？</h2><h3 id="nbsp-nbsp-nbsp-CMD的require是加载时执行而es6的import是调用时执行，加载时只产生引用-；require可以动态加载，而import只能静态加载。"><a href="#nbsp-nbsp-nbsp-CMD的require是加载时执行而es6的import是调用时执行，加载时只产生引用-；require可以动态加载，而import只能静态加载。" class="headerlink" title="&nbsp;&nbsp;&nbsp;CMD的require是加载时执行而es6的import是调用时执行，加载时只产生引用 ；require可以动态加载，而import只能静态加载。"></a>&nbsp;&nbsp;&nbsp;CMD的require是加载时执行而es6的import是调用时执行，加载时只产生引用 ；require可以动态加载，而import只能静态加载。</h3><h2 id="nbsp-nbsp-nbsp-14-2-es6-的类"><a href="#nbsp-nbsp-nbsp-14-2-es6-的类" class="headerlink" title="&nbsp;&nbsp;&nbsp;14_2.es6 的类:"></a>&nbsp;&nbsp;&nbsp;14_2.es6 的类:</h2><h3 id="nbsp-nbsp-nbsp-es6中引用了class关键字，添加了对类的支持，不过这个类实际上只是对原型进行包装的语法糖。"><a href="#nbsp-nbsp-nbsp-es6中引用了class关键字，添加了对类的支持，不过这个类实际上只是对原型进行包装的语法糖。" class="headerlink" title="&nbsp;&nbsp;&nbsp;es6中引用了class关键字，添加了对类的支持，不过这个类实际上只是对原型进行包装的语法糖。"></a>&nbsp;&nbsp;&nbsp;es6中引用了class关键字，添加了对类的支持，不过这个类实际上只是对原型进行包装的语法糖。</h3><h2 id="nbsp-nbsp-nbsp-14-3-es6-的-Promise-对象的了解"><a href="#nbsp-nbsp-nbsp-14-3-es6-的-Promise-对象的了解" class="headerlink" title="&nbsp;&nbsp;&nbsp;14_3.es6 的 Promise 对象的了解:"></a>&nbsp;&nbsp;&nbsp;14_3.es6 的 Promise 对象的了解:</h2><h3 id="nbsp-nbsp-nbsp-一个Promise对象可以理解为一次将要执行的操作（常常被用于异步操作），使用了-Promise-对象之后可以用一种链式调用的方式来组织代码，让代码更加直观。而且由于-Promise-all-这样的方法存在，可以让同时执行多个操作变得简单。"><a href="#nbsp-nbsp-nbsp-一个Promise对象可以理解为一次将要执行的操作（常常被用于异步操作），使用了-Promise-对象之后可以用一种链式调用的方式来组织代码，让代码更加直观。而且由于-Promise-all-这样的方法存在，可以让同时执行多个操作变得简单。" class="headerlink" title="&nbsp;&nbsp;&nbsp;一个Promise对象可以理解为一次将要执行的操作（常常被用于异步操作），使用了 Promise 对象之后可以用一种链式调用的方式来组织代码，让代码更加直观。而且由于 Promise.all 这样的方法存在，可以让同时执行多个操作变得简单。"></a>&nbsp;&nbsp;&nbsp;一个Promise对象可以理解为一次将要执行的操作（常常被用于异步操作），使用了 Promise 对象之后可以用一种链式调用的方式来组织代码，让代码更加直观。而且由于 Promise.all 这样的方法存在，可以让同时执行多个操作变得简单。</h3><h3 id="nbsp-nbsp-nbsp-Promise-对象有三种状态："><a href="#nbsp-nbsp-nbsp-Promise-对象有三种状态：" class="headerlink" title="&nbsp;&nbsp;&nbsp;Promise 对象有三种状态："></a>&nbsp;&nbsp;&nbsp;Promise 对象有三种状态：</h3><h4 id="nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-•-Fulfilled-可以理解为成功的状态"><a href="#nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-•-Fulfilled-可以理解为成功的状态" class="headerlink" title="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Fulfilled 可以理解为成功的状态"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Fulfilled 可以理解为成功的状态</h4><h4 id="nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-•-Rejected-可以理解为失败的状态"><a href="#nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-•-Rejected-可以理解为失败的状态" class="headerlink" title="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Rejected 可以理解为失败的状态"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Rejected 可以理解为失败的状态</h4><h4 id="nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-•-Pending-既不是-Fulfilld-也不是-Rejected-的状态，可以理解为-Promise-对象实例创建时候的初始状态"><a href="#nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-•-Pending-既不是-Fulfilld-也不是-Rejected-的状态，可以理解为-Promise-对象实例创建时候的初始状态" class="headerlink" title="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Pending 既不是 Fulfilld 也不是 Rejected 的状态，可以理解为 Promise 对象实例创建时候的初始状态"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Pending 既不是 Fulfilld 也不是 Rejected 的状态，可以理解为 Promise 对象实例创建时候的初始状态</h4><h1 id="13-javascript-的哪些东西分别存在于内存的堆和栈"><a href="#13-javascript-的哪些东西分别存在于内存的堆和栈" class="headerlink" title="13.javascript 的哪些东西分别存在于内存的堆和栈 ?"></a><strong>13.javascript 的哪些东西分别存在于内存的堆和栈 ?</strong></h1><h3 id="原始数据类型诸如null，undefined，Boolean，String，Number存在于栈中"><a href="#原始数据类型诸如null，undefined，Boolean，String，Number存在于栈中" class="headerlink" title="原始数据类型诸如null，undefined，Boolean，String，Number存在于栈中,"></a>原始数据类型诸如null，undefined，Boolean，String，Number存在于栈中,</h3><h3 id="引用类型诸如Obeject，Array，function存在于堆中。"><a href="#引用类型诸如Obeject，Array，function存在于堆中。" class="headerlink" title="引用类型诸如Obeject，Array，function存在于堆中。"></a>引用类型诸如Obeject，Array，function存在于堆中。</h3><h1 id="14-函数式编程有什么特点？"><a href="#14-函数式编程有什么特点？" class="headerlink" title="14.函数式编程有什么特点？"></a><strong>14.函数式编程有什么特点？</strong></h1><ul>
+<li><h2 id="高阶函数"><a href="#高阶函数" class="headerlink" title="高阶函数"></a>高阶函数</h2></li>
+<li><h2 id="偏应用函数"><a href="#偏应用函数" class="headerlink" title="偏应用函数"></a>偏应用函数</h2></li>
+<li><h2 id="柯里化"><a href="#柯里化" class="headerlink" title="柯里化"></a>柯里化</h2></li>
+<li><h2 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h2></li>
+</ul>
+<h1 id="15-css媒体查询要注意哪些问题？"><a href="#15-css媒体查询要注意哪些问题？" class="headerlink" title="15.css媒体查询要注意哪些问题？"></a><strong>15.css媒体查询要注意哪些问题？</strong></h1><h2 id="1）使用媒体类型："><a href="#1）使用媒体类型：" class="headerlink" title="1）使用媒体类型："></a>1）使用媒体类型：</h2><pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;site.css&quot; media=&quot;screen&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;print.css&quot; media=&quot;print&quot; /&gt;
+</code></pre><h3 id="•-screen-适用于计算机彩色屏幕。"><a href="#•-screen-适用于计算机彩色屏幕。" class="headerlink" title="• screen 适用于计算机彩色屏幕。"></a>• screen 适用于计算机彩色屏幕。</h3><h3 id="•-print-适用于打印预览模式下查看的内容或者打印机打印的内容。"><a href="#•-print-适用于打印预览模式下查看的内容或者打印机打印的内容。" class="headerlink" title="• print 适用于打印预览模式下查看的内容或者打印机打印的内容。"></a>• print 适用于打印预览模式下查看的内容或者打印机打印的内容。</h3><h2 id="2）-媒体查询规则："><a href="#2）-媒体查询规则：" class="headerlink" title="2） 媒体查询规则："></a>2） 媒体查询规则：</h2><pre><code>@media all and (min-width: 800px) { ... }
+</code></pre><h3 id="•-media-all-是媒体类型，也就是说，将此-CSS-应用于所有媒体类型。"><a href="#•-media-all-是媒体类型，也就是说，将此-CSS-应用于所有媒体类型。" class="headerlink" title="• @media all 是媒体类型，也就是说，将此 CSS 应用于所有媒体类型。"></a>• @media all 是媒体类型，也就是说，将此 CSS 应用于所有媒体类型。</h3><h3 id="•-min-width-800px-是包含媒体查询的表达式，如果浏览器的最小宽度为-800-像素，则会告诉浏览器只运用对应的-CSS。"><a href="#•-min-width-800px-是包含媒体查询的表达式，如果浏览器的最小宽度为-800-像素，则会告诉浏览器只运用对应的-CSS。" class="headerlink" title="• (min-width: 800px) 是包含媒体查询的表达式，如果浏览器的最小宽度为 800 像素，则会告诉浏览器只运用对应的 CSS。"></a>• (min-width: 800px) 是包含媒体查询的表达式，如果浏览器的最小宽度为 800 像素，则会告诉浏览器只运用对应的 CSS。</h3><h3 id="好了，以上就是我的总结啦，欢迎各位看官补充修正-！"><a href="#好了，以上就是我的总结啦，欢迎各位看官补充修正-！" class="headerlink" title=" 好了，以上就是我的总结啦，欢迎各位看官补充修正(^__^！)"></a><strong> 好了，以上就是我的总结啦，欢迎各位看官补充修正(<em>^__^</em>！)</strong></h3>
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/08/03/常用运算符的一些坑/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          常用运算符的一些坑
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/07/26/使用hexo搭建你的第一个个人博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">使用hexo搭建你的第一个个人博客</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="自己总结的15道前端面试题" data-title="自己总结的15道前端面试题" data-url="http://yoursite.com/2016/07/27/自己总结的15道前端面试题/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+        本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        本站访客数<span id="busuanzi_value_site_uv"></span>人次
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次     
+    </div>
+  </div>
+</footer>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+<div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
+
+  </div>
+</body>
+</html>
